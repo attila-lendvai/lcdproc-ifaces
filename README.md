@@ -24,6 +24,6 @@ The easiest way:
 2. Create a branch (`git checkout -b my_changes`)
 3. Commit your changes (`git commit -am "Added foobar"`)
 4. Push to the branch (`git push origin my_changes`)
-5. Open a [Pull Request](http://github.com/github/markup/pulls)
+5. Open a [Pull Request](https://github.com/attila-lendvai/lcdproc-ifaces/pulls)
 6. Wait
-7. After a while bug maintainer if nothing happens
+7. If nothing happens after a couple of weeks, bug the maintainer...
