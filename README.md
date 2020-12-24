@@ -1,29 +1,25 @@
-Network interface screen for [lcdproc](http://lcdproc.omnipotent.net/)
-======================================================================
+# What
 
-This is a quick python hack to display the network interfaces using
+Display the network interfaces on an LCD display using
 [lcdproc](http://lcdproc.omnipotent.net/).
 
-Install
--------
+Some servers have small LCD displays. This project is a quick and dirty
+Python script that can daemonize itself to display the network interfaces
+on the LCD (e.g. their IP addresses).
+
+# Who, Where
+
+You can reach me at [attila@lendvai.name](mailto:attila@lendvai.name).
+
+The project's home is on [Github](https://github.com/attila-lendvai/lcdproc-ifaces/).
+
+# Install
 
 Start it up as root, e.g. from `/etc/rc.local`. It will daemonize itself and log to `syslog`.
 
-Contributing
-------------
+# Status
 
-You can reach me at [attila.lendvai@gmail.com](mailto:attila.lendvai@gmail.com).
+I'm no longer using it, and I don't even have the means for testing it.
 
-Patches are welcome, especially to fix the sometimes missed button
-events. Although once these servers are gone from me, I'll have no
-means to test the patches, so please pay extra attention when testing!
-
-The easiest way:
-
-1. Fork it on github.
-2. Create a branch (`git checkout -b my_changes`)
-3. Commit your changes (`git commit -am "Added foobar"`)
-4. Push to the branch (`git push origin my_changes`)
-5. Open a [Pull Request](https://github.com/attila-lendvai/lcdproc-ifaces/pulls)
-6. Wait
-7. If nothing happens after a couple of weeks, bug the maintainer...
+If you're interested in maintaining this project then you're welcome to
+take it over.
